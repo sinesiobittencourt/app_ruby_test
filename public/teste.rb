@@ -1,8 +1,7 @@
 <body>
   <% if nomes.empty? %>
     <div class="popup">
-      Nenhum nome
-    </div>
+      <%= "Nenhum nome" %></div>
   <% else %>
     <ul class="listagem">
       <% nomes.each do |nome| %>
